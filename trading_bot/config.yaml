@@ -1,7 +1,11 @@
 name: Trading Bot
 version: "1.0.0"
 slug: trading_bot
-description: Runs Python trading bot with auto-restart
+description: Python trading bot
 startup: services
 boot: auto
 init: false
+arch:
+  - aarch64
+  - armv7
+  - amd64
